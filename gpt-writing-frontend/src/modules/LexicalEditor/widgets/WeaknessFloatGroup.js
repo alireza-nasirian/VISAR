@@ -129,7 +129,7 @@ export default function WeaknessFloatGroup ({ editor }) {
         selected_text = node.getTextContent()
       }
       // IP: https://visar.app:8088
-      fetch('https://visar.app/api/getWeakness', {
+      fetch('http://localhost:5000/getWeakness', {
         method: 'POST',
         mode: 'cors',
         headers: {

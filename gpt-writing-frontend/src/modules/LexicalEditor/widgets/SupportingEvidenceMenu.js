@@ -161,7 +161,7 @@ export default function SupportingEvidenceMenu ({ editor }) {
       }
 
       // IP: https://visar.app:8088
-      fetch('https://visar.app/api/supportingArguments', {
+      fetch('http://localhost:5000/supportingArguments', {
         method: 'POST',
         mode: 'cors',
         headers: {
